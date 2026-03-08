@@ -40,51 +40,55 @@
   <section>
     <div class="container platform-content">
       <h1>Privacy Policy</h1>
-      <p><em>Last updated: March 8, 2026</em></p>
+      <p><em>Last updated: March 5, 2026</em></p>
 
-      <h2>What TLDR Comments Does</h2>
-      <p>TLDR Comments is a Chrome extension that summarizes comment sections on websites using AI. When you click the extension icon, it reads the comments on the current page and sends them to your chosen AI provider for summarization.</p>
+      <h2>Overview</h2>
+      <p>TLDR Comments is a Chrome extension that summarizes website comment sections using AI. This privacy policy explains how the extension handles your data.</p>
 
-      <h2>Data We Collect</h2>
-      <p>None. We do not collect, store, or transmit any user data. Period.</p>
+      <h2>Data Collection</h2>
+      <p>TLDR Comments does <strong>not</strong> collect, store, or transmit any personal data to any server owned or operated by us.</p>
 
-      <h2>How Your Data Flows</h2>
+      <h2>What Data Stays on Your Device</h2>
+      <p>The following data is stored locally on your device using Chrome&rsquo;s built-in storage API and never leaves your browser:</p>
       <ul>
-        <li>Comment text is read from the current webpage by the extension running locally in your browser</li>
-        <li>The comment text is sent directly from your browser to your chosen AI provider (Google Gemini, OpenAI, or Anthropic Claude)</li>
-        <li>The AI provider returns a summary, which is displayed in the extension popup</li>
-        <li>No data passes through any server owned or operated by TLDR Comments</li>
+        <li><strong>API keys</strong>: Your AI provider API key (Gemini, OpenAI, or Anthropic) is stored locally and sent directly to your chosen AI provider when you request a summary.</li>
+        <li><strong>User preferences</strong>: Your chosen AI provider, model, and summary style settings.</li>
+        <li><strong>Summary history</strong>: Previously generated summaries are cached locally for faster loading on revisit.</li>
       </ul>
 
-      <h2>What&rsquo;s Stored Locally</h2>
-      <p>The following data is stored locally on your device using Chrome&rsquo;s built-in storage (chrome.storage.local):</p>
+      <h2>What Data is Sent to Third Parties</h2>
+      <p>When you click &ldquo;Summarize&rdquo;, the extension sends the <strong>publicly visible comments</strong> from the current webpage directly to your chosen AI provider (Google Gemini, OpenAI, or Anthropic) for summarization. This data is sent directly from your browser to the AI provider&rsquo;s API &mdash; it does not pass through any server owned by us.</p>
+      <p>The processing of this data is governed by your chosen AI provider&rsquo;s privacy policy:</p>
       <ul>
-        <li>Your API key for your chosen AI provider</li>
-        <li>Cached summaries for pages you&rsquo;ve previously summarized (for faster loading on revisit)</li>
-        <li>Your extension preferences (summary style, theme, etc.)</li>
+        <li>Google Gemini: <a href="https://ai.google.dev/terms" target="_blank" rel="noopener">https://ai.google.dev/terms</a></li>
+        <li>OpenAI: <a href="https://openai.com/privacy" target="_blank" rel="noopener">https://openai.com/privacy</a></li>
+        <li>Anthropic: <a href="https://www.anthropic.com/privacy" target="_blank" rel="noopener">https://www.anthropic.com/privacy</a></li>
       </ul>
-      <p>This data never leaves your device. It is never sent to us or any third party.</p>
 
-      <h2>Third-Party Services</h2>
-      <p>When you use TLDR Comments, the comment text from the page is sent to one of these AI providers based on your selection:</p>
+      <h2>What We Do NOT Do</h2>
       <ul>
-        <li><strong>Google Gemini</strong> &mdash; <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google&rsquo;s privacy policy</a></li>
-        <li><strong>OpenAI</strong> &mdash; <a href="https://openai.com/privacy" target="_blank" rel="noopener">OpenAI&rsquo;s privacy policy</a></li>
-        <li><strong>Anthropic Claude</strong> &mdash; <a href="https://www.anthropic.com/privacy" target="_blank" rel="noopener">Anthropic&rsquo;s privacy policy</a></li>
+        <li>We do <strong>not</strong> collect any analytics or usage data</li>
+        <li>We do <strong>not</strong> use any tracking or telemetry</li>
+        <li>We do <strong>not</strong> sell any data to third parties</li>
+        <li>We do <strong>not</strong> store any data on remote servers</li>
+        <li>We do <strong>not</strong> collect browsing history</li>
+        <li>We do <strong>not</strong> run any code in the background when you are not actively using the extension</li>
       </ul>
-      <p>We encourage you to review your chosen provider&rsquo;s privacy policy. We have no control over how they handle data sent to their APIs.</p>
 
-      <h2>Analytics &amp; Tracking</h2>
-      <p>TLDR Comments does not include any analytics, tracking pixels, telemetry, or data collection of any kind. We don&rsquo;t know who you are, what pages you visit, or what comments you summarize.</p>
-
-      <h2>Cookies</h2>
-      <p>TLDR Comments does not use cookies.</p>
+      <h2>Permissions</h2>
+      <p>The extension requests the following permissions, used solely for its core functionality:</p>
+      <ul>
+        <li><strong>activeTab</strong>: To read comments from the current page when you click Summarize</li>
+        <li><strong>storage</strong>: To save your settings and summary history locally</li>
+        <li><strong>scripting</strong>: To inject the comment scraper when you request a summary</li>
+        <li><strong>Host permissions</strong>: To read comments from supported websites</li>
+      </ul>
 
       <h2>Changes to This Policy</h2>
-      <p>If we ever change this privacy policy, we will update this page. Since we don&rsquo;t collect any data, we don&rsquo;t expect this to change.</p>
+      <p>If this privacy policy is updated, the changes will be reflected on this page with an updated date.</p>
 
       <h2>Contact</h2>
-      <p>If you have questions about this privacy policy, open an issue on our <a href="https://github.com/shivangchauhan7/tldr-comments" target="_blank" rel="noopener">GitHub repository</a>.</p>
+      <p>If you have questions about this privacy policy, contact: <a href="mailto:shivangchauhan877@gmail.com">shivangchauhan877@gmail.com</a></p>
     </div>
   </section>
 
