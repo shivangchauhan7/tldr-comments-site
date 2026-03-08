@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://YOUR_DOMAIN.com/</loc>
+    <loc>https://shivangchauhan7.github.io/tldr-comments-site/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://YOUR_DOMAIN.com/reddit</loc>
+    <loc>https://shivangchauhan7.github.io/tldr-comments-site/reddit</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR_DOMAIN.com/youtube</loc>
+    <loc>https://shivangchauhan7.github.io/tldr-comments-site/youtube</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR_DOMAIN.com/amazon</loc>
+    <loc>https://shivangchauhan7.github.io/tldr-comments-site/amazon</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR_DOMAIN.com/hacker-news</loc>
+    <loc>https://shivangchauhan7.github.io/tldr-comments-site/hacker-news</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
